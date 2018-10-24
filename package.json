@@ -1,0 +1,19 @@
+{
+  "name": "external-service-task-aggregation",
+  "version": "1.0.0",
+  "description": "external service task to query time based data of an interval from a database an perform agregation",
+  "main": "index.js",
+  "dependencies": {
+    "camunda-external-task-client-js": "^1.0.0",
+    "querystring": "^0.2.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
